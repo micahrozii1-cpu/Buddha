@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Card</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background: #6821e2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card{
+            height: auto;
+            background: #870874;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            overflow: hidden;
+            transition: transform 0,3s;
+        }
+        .card:hover{
+            transform: scale(1.05);
+        }
+        .card-content{
+            padding: 15px;
+        }
+        .card-content h2{
+            margin: 0 0 10px;
+            color: rgb(142, 125, 247);
+            text-align: center;
+        }
+        .card-content p{
+            font-size: 14px;
+            color: #37cf9a;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="ee.jpg" alt="John" height="300px" width="100%">
+        <div class="card-content">
+            <h2>Empress👸 & Emperor🤴</h2>
+            <p>Together we rule BCA 2024</p>
+        </div>
+    </div>
+</body>
+</html>
